@@ -1,0 +1,20 @@
+{
+  "name": "eleventy-plugin-edelweiss",
+  "version": "0.0.1",
+  "description": "Plugin that adds support for Edelweiss as templating engine for Eleventy",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {},
+  "author": "Kapelianovych Yevhen",
+  "license": "ISC",
+  "peerDependencies": {
+    "@prostory/edelweiss": "*",
+    "@prostory/edelweiss-ssr": "^0.2.0"
+  },
+  "devDependencies": {
+    "debug": "^4.3.1",
+    "prettier": "^2.2.1"
+  }
+}
